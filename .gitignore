@@ -1,0 +1,16 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor files
+*.swp
+.vscode/
+
+# Ignore build artifacts
+bin/
+*.exe
+
+# Ignore configuration files containing sensitive information
+.env
+
+# Ignore Go dependency directories
+vendor/
