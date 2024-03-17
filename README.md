@@ -7,7 +7,7 @@ Skyscan is a command-line tool written in Go that fetches and displays weather i
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Abhinaenae/SkyScan
    ```
 
 2. **Build the Executable**
@@ -38,7 +38,7 @@ Skyscan is a command-line tool written in Go that fetches and displays weather i
 This tool depends on the following external packages:
 
 - [github.com/fatih/color](https://github.com/fatih/color) - For terminal color output.
-- [Go installed](https://go.dev/dl/)
+- [Go](https://go.dev/dl/)
 
 ## API Used
 
