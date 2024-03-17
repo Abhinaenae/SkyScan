@@ -38,11 +38,10 @@ type Weather struct {
 
 func main() {
 	q := "Dallas" //change default city to any desired city
-	WEATHER_API_KEY := "http://api.weatherapi.com/v1/forecast.json?key=45b012ede2e04e109f2172140241603&q=" + q + "&days=1&aqi=no&alerts=no"
 	if len(os.Args) >= 2 {
 		q = os.Args[1]
 	}
-
+	WEATHER_API_KEY := "http://api.weatherapi.com/v1/forecast.json?key=45b012ede2e04e109f2172140241603&q=" + q + "&days=1&aqi=no&alerts=no"
 	res, err := http.Get(WEATHER_API_KEY)
 	if err != nil {
 		panic(err)
