@@ -30,8 +30,7 @@ Skyscan is a command-line tool written in Go that fetches and displays weather i
 
 ## Example
 
-![London Example](https://github.com/Abhinaenae/SkyScan/blob/main/img/londonexample.png)
-
+![londonexample](https://github.com/Abhinaenae/SkyScan/assets/92381984/2be56a62-a70e-4512-be48-08f9c1a970d2)
 
 ## Dependencies
 
